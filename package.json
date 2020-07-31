@@ -13,6 +13,10 @@
   "engines": {
     "node": ">=8.9.0"
   },
+  "files": [
+    "bin",
+    "lib"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "eslint .",
