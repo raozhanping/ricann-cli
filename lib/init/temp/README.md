@@ -1,4 +1,4 @@
-# 360mp store
+# <%= rootOptions.name %>
 
 ## 文档
 
