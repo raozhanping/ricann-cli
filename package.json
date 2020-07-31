@@ -1,7 +1,7 @@
 {
   "name": "@ricann/cli",
   "version": "0.0.1",
-  "private": true,
+  "description": "Command line interface for rapid development",
   "bin": {
     "ricann": "./bin/ricann.js"
   },
@@ -17,6 +17,18 @@
     "bin",
     "lib"
   ],
+  "author": "raozhanping",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raozhanping/ricann-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raozhanping/ricann-cli/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "eslint .",
